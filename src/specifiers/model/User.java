@@ -1,4 +1,4 @@
-package com.company.model;
+package specifiers.model;
 // ALT + Ins -> auto generate
 // psvm -> main method template
 // sout -> System.out.println()
@@ -9,6 +9,9 @@ public class User {
     public Long user_id;
     protected String name;
     private String lastName;
+
+
+
     // konstruktor domyślny - bez parametrów i bez implementacji
     public User() {
     }
