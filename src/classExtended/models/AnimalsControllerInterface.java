@@ -18,5 +18,5 @@ public interface AnimalsControllerInterface {
 
     void getAllAnimals();
 
-    List<Animal> getAnimalsBySpecies(String species);
+    List<Animal> getAnimalsByGender(Gender gender);
 }

@@ -7,6 +7,7 @@ import classExtended.models.Mammal;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.stream.Collectors;
 
 // psvm -> public static void main(){}
 public class AnimalsController implements AnimalsControllerInterface {
@@ -22,8 +23,10 @@ public class AnimalsController implements AnimalsControllerInterface {
     }
 
     @Override
-    public List<Animal> getAnimalsBySpecies(String species) {
-        return null;
+    public List<Animal> getAnimalsByGender(Gender gender) {
+        return animals.stream()
+                .filter(animal -> animal.getGender() == gender)     // filtrowanie po płci
+                .collect(Collectors.toList());                      // zapis do listy
     }
 
 
@@ -70,5 +73,6 @@ public class AnimalsController implements AnimalsControllerInterface {
         AnimalsController ac = new AnimalsController();
         System.out.println(ac.compareAnimalsByChromosomNumbers(mammal, mammal));
         ac.getAllAnimals();
+        System.out.println(ac.getAnimalsByGender(Gender.Female));
     }
 }

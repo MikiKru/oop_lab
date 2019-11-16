@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bad0bbd2-ae77-4739-a2f9-a89a1fd702d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/classExtended/AnimalsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classExtended/AnimalsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classExtended/models/AnimalsControllerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classExtended/models/AnimalsControllerInterface.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,14 +41,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/classExtended/AnimalsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+            <state relative-caret-position="380">
+              <caret line="75" column="64" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#562#563#0" expanded="true" />
                 <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#667#668#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/src/classExtended/models/AnimalsControllerInterface.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="328">
-              <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,7 +166,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573919108326" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573919630778" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -273,12 +272,12 @@
       <updated>1572092492953</updated>
       <workItem from="1572092496352" duration="6588000" />
       <workItem from="1572268770957" duration="170000" />
-      <workItem from="1573914776279" duration="4325000" />
+      <workItem from="1573914776279" duration="4847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11083000" />
+    <option name="totallyTimeSpent" value="11605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -293,7 +292,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24220963" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3186969" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -414,7 +413,7 @@
     <entry file="file://$PROJECT_DIR$/src/classExtended/models/AnimalsControllerInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
-          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -423,14 +422,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classExtended/AnimalsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+        <state relative-caret-position="380">
+          <caret line="75" column="64" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#562#563#0" expanded="true" />
             <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
           </folding>
         </state>
       </provider>
