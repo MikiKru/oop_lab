@@ -1,4 +1,4 @@
-package classExtended;
+package classExtended.models;
 
 import java.time.LocalDate;
 

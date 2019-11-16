@@ -1,4 +1,4 @@
-package classExtended;
+package classExtended.models;
 
 import java.time.LocalDate;
 
@@ -8,7 +8,7 @@ public class Animal extends Object {
     // pola
     private LocalDate birthDate;
     private int chromosomsNumber;
-    private Gender gender;
+    protected Gender gender;
 
     // konstruktor
     public Animal(LocalDate birthDate, int chromosomsNumber, Gender gender) {
