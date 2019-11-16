@@ -9,6 +9,11 @@ import java.time.LocalDate;
 // psvm -> public static void main(){}
 public class AnimalsController {
 
+    public boolean compareAnimalsByChromosomNumbers(Animal a1, Animal a2){
+        return a1.getChromosomsNumber() > a2.getChromosomsNumber();
+    }
+
+
     public static void main(String[] args) {
         Animal animal = new Animal(
                 LocalDate.of(2018,4,3),
@@ -40,5 +45,17 @@ public class AnimalsController {
         // składowe chronione
 //        mammal.gender = Gender.Both; -> tylok dostęp w pakiecie models
         System.out.println(mammal);
+
+        // POLIMORFIZM
+        Animal a1 = new Mammal(LocalDate.now(), 12, Gender.Female, "pies");
+        System.out.println(a1.getClass());
+
+        // NAPISZ METODĘ KTÓRA PORÓNUJE DWA ZWIERZAKI POD WZGLĘDEM LICZBY CHROMOSOMÓW
+        // -> FUNKCJA ZWRACA true jeśli pierwszys obkiet ma więcej chromosomów
+        // -> W PRZECIWNYM PRZYPADKU ZWRACA FALSE
+
+        AnimalsController ac = new AnimalsController();
+        System.out.println(ac.compareAnimalsByChromosomNumbers(mammal, mammal));
+
     }
 }
