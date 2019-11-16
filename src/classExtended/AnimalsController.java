@@ -2,6 +2,7 @@ package classExtended;
 
 import classExtended.models.Animal;
 import classExtended.models.Gender;
+import classExtended.models.Mammal;
 
 import java.time.LocalDate;
 
@@ -25,5 +26,19 @@ public class AnimalsController {
         // dostęp do składowych chronionych
 //        animal.gender = Gender.Female; -> tylko dostęp w tym samym pakiecie
         System.out.println(animal);
+
+        Mammal mammal = new Mammal(
+                LocalDate.of(2010, 10,10),
+                32,
+                Gender.Male,
+                "kot"
+        );
+        // publiczne składowe klasy
+        mammal.setChromosomsNumber(33);
+        // prywatne składowe klasy
+//        mammal.species = "X"; -> brak dostępu
+        // składowe chronione
+//        mammal.gender = Gender.Both; -> tylok dostęp w pakiecie models
+        System.out.println(mammal);
     }
 }
