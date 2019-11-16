@@ -21,16 +21,16 @@ public class UserController {
         // skrócony zapis pętli for-each
         users.forEach(System.out::println);
     }
-    // EX 1
+    // EX 1 - 1pkt.
     public User getUserById(long user_id){
         // ???
         return null;
     }
-    // EX 2
+    // EX 2 - 2pkt.
     public void deleteUserById(long user_id){
         // ???
     }
-    // EX 3
+    // EX 3 - 2pkt.
     public void updateUserPassword(long user_id, String newPassword){
         // ???
     }
