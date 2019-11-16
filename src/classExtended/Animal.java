@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 // ALT + Ins -> generate
 // ALT + ENTER -> autopodpowiedź
-public class Animal {
+public class Animal extends Object {
     // pola
     private LocalDate birthDate;
     private int chromosomsNumber;
