@@ -1,16 +1,29 @@
 package classExtended;
 
 import classExtended.models.Animal;
+import classExtended.models.AnimalsControllerInterface;
 import classExtended.models.Gender;
 import classExtended.models.Mammal;
 
 import java.time.LocalDate;
+import java.util.List;
 
 // psvm -> public static void main(){}
-public class AnimalsController {
+public class AnimalsController implements AnimalsControllerInterface {
 
+    @Override
     public boolean compareAnimalsByChromosomNumbers(Animal a1, Animal a2){
         return a1.getChromosomsNumber() > a2.getChromosomsNumber();
+    }
+
+    @Override
+    public void getAllAnimals() {
+        animals.forEach(animal -> System.out.println(animal));
+    }
+
+    @Override
+    public List<Animal> getAnimalsBySpecies(String species) {
+        return null;
     }
 
 
@@ -56,6 +69,6 @@ public class AnimalsController {
 
         AnimalsController ac = new AnimalsController();
         System.out.println(ac.compareAnimalsByChromosomNumbers(mammal, mammal));
-
+        ac.getAllAnimals();
     }
 }
